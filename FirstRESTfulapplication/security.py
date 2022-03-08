@@ -1,5 +1,5 @@
 from werkzeug.security import safe_str_cmp
-from user import User
+from Storedata_SQLDB.user import User
 
 
 # table for users

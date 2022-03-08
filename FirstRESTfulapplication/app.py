@@ -2,7 +2,7 @@ from flask import Flask,request
 from flask_restful import Resource,Api,reqparse
 from flask_jwt import JWT
 
-from security import authenticate,identity
+from Storedata_SQLDB.security import authenticate,identity
 
 app = Flask(__name__)
 app.secret_key = "secretkey"  # This key should be secret
